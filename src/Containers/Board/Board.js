@@ -1,8 +1,6 @@
 import React from 'react';
 import Square from '../../Components/Square/Square';
 import Knight from '../../Components/Knight/Knight';
-import square from '../../Components/Square/Square';
-import { wrap } from 'module';
 
 function renderSquare(i, [knightX, knightY]) {
     const x = i % 8;
